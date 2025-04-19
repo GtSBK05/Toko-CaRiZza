@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+.navbar-custom {
+  background-color: #dc3545 !important;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-expand-custom {
+  background-color: #bb2d3b !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.header-custom {
+  background-color: white;
+  padding: 4rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header .lead {
+  font-size: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.btn-custom {
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: whitesmoke;
+}
+
+.btn-success {
+  background-color: yellowgreen;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  background-color: greenyellow;
+}
+
+.btn-outline-primary {
+  color: white;
+  background-color: #bb2d3b;
+  border-color: #ff8800;
+}
+
+.btn-outline-primary:hover {
+  color: #bb2d3b;
+  background-color: whitesmoke;
+  border-color: #ff8800;
+}
+
+.btn-primary {
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.btn-primary-custom {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary-custom:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.footer-custom {
+  background-color: #dc3545;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  header .lead {
+    font-size: 1rem;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
